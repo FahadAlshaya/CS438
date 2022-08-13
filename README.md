@@ -18,10 +18,10 @@ It’s important thing for every website to have a CSS Because it’s used to se
 
 For the home page we added a photo and paragraph this is our model .To feel more comfortable with the colors we chose white for our primary color and it’s color gradient . For the item’s we organized them with contanier that contain them all and inside this container we listed our items. For the other HTML pages such as Sport Supplements , Vitamins & Health , Sports we did use the same CSS  Style to organize the items on our shop . The log in page we did another CSS style we want to make it more alive when someone try to log in or register.
 
-#Dynamic Components 
+# Dynamic Components 
 We have made two java script files the first one for all the pages that have products , when you click on the product it shows a more details for the product and the price . The second one is for the validation on register page , the user can’t put a password less than six numbers and the user can’t type the word password as a password on the register
 
-#Business Logioc
+# Business Logioc
 The structure of our data base was by Xampp we used mysql data base to add our data we did new table called tb_user and we added five items id , name , username , email , password , We used the method post to send the data to our server.
 
 - We use SELECT to make sure there no similar username or email in the database in registration action.
