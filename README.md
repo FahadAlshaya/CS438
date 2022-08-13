@@ -1,5 +1,7 @@
 # CS438 Project (Website Store)
-
+Fahad Abdulaziz Alshaya 439016350
+Yasser Abdullah Alsamel 439012305
+Supervisor :Dr.Zeyad Alshaikh
 
 # Overview
 Health Zone website sells health food and supplements. It helps people to live a healthy life by making it easier for them to find healthy products from many brands at the lowest prices. It generally helps all people and especially athletes to help them  raise their proformance and archieve their goals faster.
@@ -36,9 +38,9 @@ The structure of our data base was by Xampp we used mysql data base to add our d
 - https://youtu.be/B20Getj_Zk4
 - https://youtu.be/4anyyr1DHGw
 - https://www.myprotein.ae/
-- 
+- https://www.youtube.com/watch?v=OAPRagDr4pU
 - https://www.sporter.com/
 - https://youtu.be/kffivnAYUAY
 - https://www.mysql.com/
 - https://www.apachefriends.org/
-- 
+- https://stackoverflow.com/questions/53664188/how-to-connect-sql-server-with-php-using-xampp
