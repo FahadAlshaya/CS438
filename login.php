@@ -49,7 +49,6 @@ if (isset($_POST["submit"])) {
           <label for="password">Password </label>
         </div>
         
-        <!-- <button type="submit" name="submit">Login</button> -->
         <button type="submit" name="submit">Login</button>
         <div class="signup_link">
           Not a member? <a href="registration.php">Register</a>
