@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Zone</title>
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script.js" defer></script>
+
+</head>
+<body>
+    <!-- bar scation -->
+    <nav>
+        
+        <div class="logo">
+            <h3>Health Zone</h3>
+        </div>
+        <div class="menu">
+        <ul class="nav-items">
+            <li class="nav-item">
+                <a href="Project.html" class="nav-link">Home Page</a>   
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Sport Supplements</a>
+                <div class="sub">
+                    <div class="sub-item">
+                            <ul>
+                                <li>
+                                    <a href="Protien.html" >Protien</a>
+                                </li>
+                                <li>
+                                    <a href="PreWork.html">Pre Workout</a>
+                                </li>
+                                <li>
+                                 <a href="Creatine.html">Creatine</a>
+                             </li>
+                            </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="Vitamins.html" class="nav-link">Vitamins & Health</a>
+                <div class="sub">
+                  <div class="sub-item">
+                          <ul>
+                              <li>
+                                  <a href="Health.html" class="nav-link">Health Food</a>
+                              </li>
+                              <li>
+                               <a href="Vitamins.html" class="nav-link">Vitamins</a>
+                           </li>
+                          </ul>
+                  </div>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a href="Sports.html" class="nav-link">Sports</a>
+            </li>
+            <li class="cart1">
+               <i class="bx bx-basket"></i>
+            </li>
+
+            <li class="bt">
+               <a href ="login.php"><i class="bx bx-user"></i></a>
+            </li>
+
+        </ul>
+    
+    
+        </div>
+    </nav>
+
+<!-- main scation-->
+
+<section class="main">
+
+    <div class="main1">
+        <div class="content">
+            <h3>
+                EAT RIGHT TO FIGHT FAT 
+            </h3>
+            <button id="b3" >About us</button>
+               <h5 style="padding-left:0; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin-top: 0.5cm; font-size: large;"><span id="ddd"></span></h5>
+               <script>
+                  document.getElementById('b3').addEventListener('click', aja);
+                  function aja(){
+
+                  const xhr = new XMLHttpRequest();
+                  xhr.open('GET', 'about.html', true);
+                  
+                   
+                  xhr.onload = function(){
+                     if(this.status === 200){
+                     document.getElementById("ddd").innerHTML=xhr.responseText
+                  }else{
+                     console.warn("nooot");
+                  }
+                  }
+                  
+                  xhr.send();
+               }
+               </script>
+        </div>
+        <div class="content-img">
+            <img src="images\the-muscles-369784__340.webp" alt="" height="500" width="700">
+        </div>
+
+    </div>
+
+
+
+</section>
+
+<div class="container">
+    <i class="fa-regular fa-cart-shopping"></i>
+    <h3 class="title">  Protien </h3>
+ 
+    <div class="products-container">
+ 
+       <div class="product" data-name="p-1">
+          <img src="images/1.jpg" alt="">
+          <h3>MUSASHI BULK PROTEIN Powder</h3>
+          <div class="price">$138.00</div>
+       </div>
+ 
+       <div class="product" data-name="p-2">
+          <img src="images/2.jpg" alt="">
+          <h3>Dymatize Iso 100 Hydrolyzed Protein Powder</h3>
+          <div class="price">$135.00</div>
+       </div>
+ 
+       <div class="product" data-name="p-3">
+          <img src="images/3.jpg" alt="">
+          <h3>Nutrend 100% Whey Protein</h3>
+          <div class="price">$132.00</div>
+       </div>
+ 
+    </div>
+ 
+ </div>
+
+ <div class="container">
+    <i class="fa-regular fa-cart-shopping"></i>
+    <h3 class="title">  Pre Workout </h3>
+ 
+    <div class="products-container">
+ 
+       <div class="product" data-name="p-4">
+          <img src="images\pre1.jpg" alt="">
+          <h3>C4 Original Pre Workout</h3>
+          <div class="price">$75.00</div>
+       </div>
+ 
+       <div class="product" data-name="p-5">
+          <img src="images\pre2.jpg" alt="">
+          <h3>The Pack - Wild Pre-Workout</h3>
+          <div class="price">$100.00</div>
+       </div>
+ 
+       <div class="product" data-name="p-6">
+          <img src="images\pre3.jpg" alt="">
+          <h3>The Ripper 30 Ser Fat</h3>
+          <div class="price">$150.00</div>
+       </div>
+ 
+    </div>
+ 
+ </div>
+
+
+ <div class="container">
+    <i class="fa-regular fa-cart-shopping"></i>
+    <h3 class="title">  Sports </h3>
+ 
+    <div class="products-container">
+ 
+       <div class="product" data-name="p-7">
+          <img src="images\dunbl.jpg" alt="">
+          <h3>Sport Chrome Dumbell Set 50Kg Black</h3>
+          <div class="price">$160.00</div>
+       </div>
+ 
+       <div class="product" data-name="p-8">
+          <img src="images\dunbl2.jpg" alt="">
+          <h3>Sport Chrome Dumbell Set 20Kg Silver</h3>
+          <div class="price">$80.00</div>
+       </div>
+ 
+       <div class="product" data-name="p-9">
+          <img src="images\dunbl3.jpg" alt="">
+          <h3>Sport Chrome Dumbell Set 15Kg Silver</h3>
+          <div class="price">$55.00</div>
+       </div>
+ 
+    </div>
+ 
+ </div>
+
+
+
+
+ <div class="products-preview">
+
+   <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+      <h3>MUSASHI BULK PROTEIN Powder</h3>
+      <p>MUSASHI BULK PROTEIN Powder</p>
+      <div class="price">$138.00</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <h3>Dymatize Iso 100 Hydrolyzed Protein Powder</h3>
+      <p>Dymatize Iso 100 Hydrolyzed Protein Powder 100% Whey Protein Isolate, Gourmet Chocolate, 2.3 Kg</p>
+      <div class="price">$135.00</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <h3>Nutrend 100% Whey Protein</h3>
+      <p>Nutrend 100% Whey Protein 2.25kg</p>
+      <div class="price">$132.00</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <h3>C4 Original Pre Workout  </h3>
+      <p>C4 Original Pre Workout Powder Fruit Punch - Vitamin C for Immune Support</p>
+      <div class="price">$75.00</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-5">
+      <i class="fas fa-times"></i>
+      <h3>The Pack - Wild Pre-Workout</h3> 
+      <p>Wild Pre-Workout</p>
+      <div class="price">$100.00</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-6">
+      <i class="fas fa-times"></i>
+      <h3>The Ripper 30 Ser Fat</h3>
+      <p>The Ripper 30 Ser Fat burner with power watermelons</p>
+      <div class="price">$150.00</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-7">
+      <i class="fas fa-times"></i>
+      <h3>Sport Chrome Dumbell Set</h3>
+      
+      <p>Sport Chrome Dumbell Set 50Kg Black – 28x14x110 cm</p>
+      <div class="price">$160.00</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-8">
+      <i class="fas fa-times"></i>
+      <h3>Sport Chrome Dumbell Set</h3>
+      
+      <p>Sport Chrome Dumbell Set 20Kg Silver – 20x10x40 cm </p>
+      <div class="price">$80.00</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-9">
+      <i class="fas fa-times"></i>
+      <h3>Sport Chrome Dumbell Set</h3>
+      
+      <p>Sport Chrome Dumbell Set 15Kg Silver – 44x10x33 cm</p>
+      <div class="price">$55.00</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+</div>
+
+<nav>
+   <h5>&copy;Project_CS438 All Right Reserved</h5>
+</nav>
+
+</body>
+</html>
