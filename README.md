@@ -1,8 +1,8 @@
 # CS438 Project (Website Store)
-Fahad Abdulaziz Alshaya 439016350
+Fahad Abdulaziz Alshaya 
 
 
-Yasser Abdullah Alsamel 439012305
+Yasser Abdullah Alsamel 
 
 
 Supervisor :Dr.Zeyad Alshaikh
@@ -36,15 +36,10 @@ The structure of our data base was by Xampp we used mysql data base to add our d
 
 # References 
 
-- https://youtu.be/hvDHGLnjLKU
 - https://www.w3schools.com/css/default.asp
 - https://www.w3schools.com/html/default.asp
-- https://youtu.be/B20Getj_Zk4
-- https://youtu.be/4anyyr1DHGw
 - https://www.myprotein.ae/
-- https://www.youtube.com/watch?v=OAPRagDr4pU
 - https://www.sporter.com/
-- https://youtu.be/kffivnAYUAY
 - https://www.mysql.com/
 - https://www.apachefriends.org/
 - https://stackoverflow.com/questions/53664188/how-to-connect-sql-server-with-php-using-xampp
